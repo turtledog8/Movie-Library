@@ -17,6 +17,13 @@ from there. DB/JWT/OMDb config is read from environment variables, see `applicat
 mvn spring-boot:run
 ```
 
+This is mainly a server app so there is no frontend, but Swagger UI 
+serves as a functional one for testing the API. Once it's running go to 
+http://localhost:8080/swagger-ui.html, log in through `/api/auth/login` 
+and paste the token into Authorize.
+
+![Swagger UI](images/API.png)
+
 ## Docs
 
 - [Secure-Movie-Library-Project.md](Secure-Movie-Library-Project.md) - 
